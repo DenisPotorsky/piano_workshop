@@ -1,0 +1,1784 @@
+INFO 2024-03-09 15:49:37,515 autoreload 6077 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-09 15:54:33,390 autoreload 6107 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-09 16:01:55,006 autoreload 6165 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-09 16:08:41,984 autoreload 6199 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-09 16:11:18,368 autoreload 6199 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop/settings.py changed, reloading.
+INFO 2024-03-09 16:11:18,653 autoreload 6220 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-09 16:13:17,712 autoreload 6220 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop/settings.py changed, reloading.
+INFO 2024-03-09 16:13:17,924 autoreload 6234 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-09 16:14:05,636 autoreload 6246 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-09 16:16:00,326 autoreload 6246 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop/settings.py changed, reloading.
+INFO 2024-03-09 16:16:00,587 autoreload 6264 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-09 16:17:41,069 autoreload 6264 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop/settings.py changed, reloading.
+INFO 2024-03-09 16:17:41,362 autoreload 6295 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-09 16:20:08,251 autoreload 6295 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop/settings.py changed, reloading.
+INFO 2024-03-09 16:20:08,577 autoreload 6315 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-09 16:20:16,724 autoreload 6323 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-09 16:22:29,818 autoreload 6361 8117490432 Watching for file changes with StatReloader
+ERROR 2024-03-09 16:23:55,472 log 6361 6159790080 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py", line 9, in index
+    return render(request, 'workshop_app/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: workshop_app/index.html
+ERROR 2024-03-09 16:23:55,473 basehttp 6361 6159790080 "GET / HTTP/1.1" 500 75264
+WARNING 2024-03-09 16:23:55,684 log 6361 6176616448 Not Found: /apple-touch-icon-precomposed.png
+WARNING 2024-03-09 16:23:55,685 basehttp 6361 6176616448 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2515
+WARNING 2024-03-09 16:23:55,693 log 6361 6176616448 Not Found: /apple-touch-icon.png
+WARNING 2024-03-09 16:23:55,693 basehttp 6361 6176616448 "GET /apple-touch-icon.png HTTP/1.1" 404 2479
+INFO 2024-03-09 16:24:57,685 basehttp 6361 6159790080 "GET / HTTP/1.1" 200 372
+INFO 2024-03-09 16:26:55,104 basehttp 6361 6159790080 "GET / HTTP/1.1" 200 1733
+WARNING 2024-03-09 16:26:55,130 log 6361 6159790080 Not Found: /assets/recet.css
+WARNING 2024-03-09 16:26:55,131 basehttp 6361 6159790080 "GET /assets/recet.css HTTP/1.1" 404 2467
+WARNING 2024-03-09 16:26:55,138 log 6361 6176616448 Not Found: /assets/styles/styles.css
+WARNING 2024-03-09 16:26:55,138 basehttp 6361 6176616448 "GET /assets/styles/styles.css HTTP/1.1" 404 2491
+WARNING 2024-03-09 16:26:55,576 log 6361 6159790080 Not Found: /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-09 16:26:55,577 basehttp 6361 6159790080 "GET /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2590
+INFO 2024-03-09 16:35:08,077 basehttp 6361 6159790080 "GET / HTTP/1.1" 200 1733
+WARNING 2024-03-09 16:35:08,102 log 6361 6159790080 Not Found: /assets/recet.css
+WARNING 2024-03-09 16:35:08,104 basehttp 6361 6159790080 "GET /assets/recet.css HTTP/1.1" 404 2467
+WARNING 2024-03-09 16:35:08,108 log 6361 6176616448 Not Found: /assets/styles/styles.css
+WARNING 2024-03-09 16:35:08,108 basehttp 6361 6176616448 "GET /assets/styles/styles.css HTTP/1.1" 404 2491
+WARNING 2024-03-09 16:35:08,149 log 6361 6159790080 Not Found: /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-09 16:35:08,149 basehttp 6361 6159790080 "GET /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2590
+WARNING 2024-03-09 16:35:13,265 log 6361 6159790080 Not Found: /price.html
+WARNING 2024-03-09 16:35:13,266 basehttp 6361 6159790080 "GET /price.html HTTP/1.1" 404 2449
+WARNING 2024-03-09 16:35:25,330 log 6361 6159790080 Not Found: /works.html
+WARNING 2024-03-09 16:35:25,331 basehttp 6361 6159790080 "GET /works.html HTTP/1.1" 404 2449
+WARNING 2024-03-09 16:35:36,771 log 6361 6159790080 Not Found: /price.html
+WARNING 2024-03-09 16:35:36,771 basehttp 6361 6159790080 "GET /price.html HTTP/1.1" 404 2449
+WARNING 2024-03-09 16:38:31,750 log 6361 6159790080 Not Found: /price.html
+WARNING 2024-03-09 16:38:31,751 basehttp 6361 6159790080 "GET /price.html HTTP/1.1" 404 2449
+WARNING 2024-03-09 16:42:19,156 log 6361 6159790080 Not Found: /about.html
+WARNING 2024-03-09 16:42:19,157 basehttp 6361 6159790080 "GET /about.html HTTP/1.1" 404 2449
+INFO 2024-03-09 16:43:27,609 basehttp 6361 6159790080 "GET / HTTP/1.1" 200 1733
+WARNING 2024-03-09 16:43:27,635 log 6361 6159790080 Not Found: /assets/recet.css
+WARNING 2024-03-09 16:43:27,636 basehttp 6361 6159790080 "GET /assets/recet.css HTTP/1.1" 404 2467
+WARNING 2024-03-09 16:43:27,641 log 6361 6176616448 Not Found: /assets/styles/styles.css
+WARNING 2024-03-09 16:43:27,642 basehttp 6361 6176616448 "GET /assets/styles/styles.css HTTP/1.1" 404 2491
+WARNING 2024-03-09 16:43:27,681 log 6361 6159790080 Not Found: /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-09 16:43:27,681 basehttp 6361 6159790080 "GET /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2590
+WARNING 2024-03-09 16:43:29,602 log 6361 6159790080 Not Found: /about.html
+WARNING 2024-03-09 16:43:29,603 basehttp 6361 6159790080 "GET /about.html HTTP/1.1" 404 2449
+WARNING 2024-03-09 16:43:33,521 log 6361 6159790080 Not Found: /contacts.html
+WARNING 2024-03-09 16:43:33,522 basehttp 6361 6159790080 "GET /contacts.html HTTP/1.1" 404 2458
+INFO 2024-03-09 17:15:56,779 basehttp 6361 6159790080 "GET / HTTP/1.1" 200 1733
+WARNING 2024-03-09 17:15:56,812 log 6361 6159790080 Not Found: /assets/recet.css
+WARNING 2024-03-09 17:15:56,813 basehttp 6361 6159790080 "GET /assets/recet.css HTTP/1.1" 404 2467
+WARNING 2024-03-09 17:15:56,814 log 6361 6176616448 Not Found: /assets/styles/styles.css
+WARNING 2024-03-09 17:15:56,815 basehttp 6361 6176616448 "GET /assets/styles/styles.css HTTP/1.1" 404 2491
+WARNING 2024-03-09 17:15:56,841 log 6361 6159790080 Not Found: /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-09 17:15:56,841 basehttp 6361 6159790080 "GET /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2590
+WARNING 2024-03-09 17:16:00,022 log 6361 6159790080 Not Found: /price.html
+WARNING 2024-03-09 17:16:00,022 basehttp 6361 6159790080 "GET /price.html HTTP/1.1" 404 2449
+INFO 2024-03-09 17:18:05,126 basehttp 6361 6159790080 "GET / HTTP/1.1" 200 1733
+WARNING 2024-03-09 17:18:05,157 log 6361 6159790080 Not Found: /assets/recet.css
+WARNING 2024-03-09 17:18:05,158 basehttp 6361 6159790080 "GET /assets/recet.css HTTP/1.1" 404 2467
+WARNING 2024-03-09 17:18:05,159 log 6361 6176616448 Not Found: /assets/styles/styles.css
+WARNING 2024-03-09 17:18:05,159 basehttp 6361 6176616448 "GET /assets/styles/styles.css HTTP/1.1" 404 2491
+WARNING 2024-03-09 17:18:05,200 log 6361 6159790080 Not Found: /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-09 17:18:05,200 basehttp 6361 6159790080 "GET /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2590
+INFO 2024-03-09 17:18:33,608 basehttp 6361 6159790080 "GET / HTTP/1.1" 200 1733
+WARNING 2024-03-09 17:18:33,633 log 6361 6159790080 Not Found: /assets/recet.css
+WARNING 2024-03-09 17:18:33,634 basehttp 6361 6159790080 "GET /assets/recet.css HTTP/1.1" 404 2467
+WARNING 2024-03-09 17:18:33,640 log 6361 6176616448 Not Found: /assets/styles/styles.css
+WARNING 2024-03-09 17:18:33,640 basehttp 6361 6176616448 "GET /assets/styles/styles.css HTTP/1.1" 404 2491
+WARNING 2024-03-09 17:18:33,684 log 6361 6159790080 Not Found: /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-09 17:18:33,685 basehttp 6361 6159790080 "GET /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2590
+INFO 2024-03-09 17:25:45,024 autoreload 6657 8117490432 Watching for file changes with StatReloader
+ERROR 2024-03-09 17:25:46,657 log 6657 6138261504 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py", line 9, in index
+    return render(request, 'workshop_app/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/templatetags/static.py", line 171, in do_static
+    return StaticNode.handle_token(parser, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/templatetags/static.py", line 145, in handle_token
+    path = parser.compile_filter(bits[1])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('deps/images/pianino_klavishi_makro_200071_3840x2160.jpg')' from 'url('deps/images/pianino_klavishi_makro_200071_3840x2160.jpg')'
+ERROR 2024-03-09 17:25:46,659 basehttp 6657 6138261504 "GET / HTTP/1.1" 500 147248
+INFO 2024-03-09 17:26:10,836 basehttp 6657 6138261504 "GET / HTTP/1.1" 200 1739
+WARNING 2024-03-09 17:26:10,860 log 6657 6138261504 Not Found: /assets/recet.css
+WARNING 2024-03-09 17:26:10,861 basehttp 6657 6138261504 "GET /assets/recet.css HTTP/1.1" 404 2467
+WARNING 2024-03-09 17:26:10,868 log 6657 6155087872 Not Found: /assets/styles/styles.css
+WARNING 2024-03-09 17:26:10,868 basehttp 6657 6155087872 "GET /assets/styles/styles.css HTTP/1.1" 404 2491
+ERROR 2024-03-09 17:28:41,841 log 6657 6138261504 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py", line 9, in index
+    return render(request, 'workshop_app/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/templatetags/static.py", line 171, in do_static
+    return StaticNode.handle_token(parser, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/templatetags/static.py", line 145, in handle_token
+    path = parser.compile_filter(bits[1])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '/recet.css' from 'assets/recet.css'
+ERROR 2024-03-09 17:28:41,843 basehttp 6657 6138261504 "GET / HTTP/1.1" 500 147698
+ERROR 2024-03-09 17:29:10,554 log 6657 6138261504 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py", line 9, in index
+    return render(request, 'workshop_app/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/templatetags/static.py", line 171, in do_static
+    return StaticNode.handle_token(parser, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/templatetags/static.py", line 145, in handle_token
+    path = parser.compile_filter(bits[1])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '/recet.css' from 'deps/recet.css'
+ERROR 2024-03-09 17:29:10,556 basehttp 6657 6138261504 "GET / HTTP/1.1" 500 147664
+ERROR 2024-03-09 17:29:29,043 log 6657 6138261504 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py", line 9, in index
+    return render(request, 'workshop_app/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/templatetags/static.py", line 171, in do_static
+    return StaticNode.handle_token(parser, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/templatetags/static.py", line 145, in handle_token
+    path = parser.compile_filter(bits[1])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '/deps/styles/styles.css' from './deps/styles/styles.css'
+ERROR 2024-03-09 17:29:29,044 basehttp 6657 6138261504 "GET / HTTP/1.1" 500 146965
+INFO 2024-03-09 17:29:43,159 basehttp 6657 6138261504 "GET / HTTP/1.1" 200 1737
+WARNING 2024-03-09 17:29:43,185 log 6657 6138261504 Not Found: /deps/recet.css
+WARNING 2024-03-09 17:29:43,186 basehttp 6657 6138261504 "GET /deps/recet.css HTTP/1.1" 404 2461
+WARNING 2024-03-09 17:29:43,193 log 6657 6155087872 Not Found: /deps/styles/styles.css}
+WARNING 2024-03-09 17:29:43,193 basehttp 6657 6155087872 "GET /deps/styles/styles.css%7D HTTP/1.1" 404 2490
+INFO 2024-03-09 17:36:43,965 basehttp 6657 6138261504 "GET / HTTP/1.1" 200 1724
+WARNING 2024-03-09 17:36:43,998 log 6657 6138261504 Not Found: /deps/recet.css
+WARNING 2024-03-09 17:36:43,999 basehttp 6657 6138261504 "GET /deps/recet.css HTTP/1.1" 404 2461
+WARNING 2024-03-09 17:36:44,000 log 6657 6155087872 Not Found: /deps/styles/styles.css}
+WARNING 2024-03-09 17:36:44,000 basehttp 6657 6155087872 "GET /deps/styles/styles.css%7D HTTP/1.1" 404 2490
+WARNING 2024-03-09 17:36:44,032 log 6657 6138261504 Not Found: /deps/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-09 17:36:44,033 basehttp 6657 6138261504 "GET /deps/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2584
+INFO 2024-03-09 17:36:53,258 autoreload 6825 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-09 17:36:57,311 basehttp 6825 6191509504 "GET / HTTP/1.1" 200 1724
+WARNING 2024-03-09 17:36:57,354 log 6825 6208335872 Not Found: /deps/styles/styles.css}
+WARNING 2024-03-09 17:36:57,355 log 6825 6191509504 Not Found: /deps/recet.css
+WARNING 2024-03-09 17:36:57,355 basehttp 6825 6208335872 "GET /deps/styles/styles.css%7D HTTP/1.1" 404 2490
+WARNING 2024-03-09 17:36:57,355 basehttp 6825 6191509504 "GET /deps/recet.css HTTP/1.1" 404 2461
+WARNING 2024-03-09 17:36:57,383 log 6825 6191509504 Not Found: /deps/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-09 17:36:57,384 basehttp 6825 6191509504 "GET /deps/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2584
+INFO 2024-03-09 17:36:58,499 basehttp 6825 6191509504 "GET / HTTP/1.1" 200 1724
+WARNING 2024-03-09 17:36:58,531 log 6825 6191509504 Not Found: /deps/recet.css
+WARNING 2024-03-09 17:36:58,531 basehttp 6825 6191509504 "GET /deps/recet.css HTTP/1.1" 404 2461
+WARNING 2024-03-09 17:36:58,533 log 6825 6208335872 Not Found: /deps/styles/styles.css}
+WARNING 2024-03-09 17:36:58,533 basehttp 6825 6208335872 "GET /deps/styles/styles.css%7D HTTP/1.1" 404 2490
+WARNING 2024-03-09 17:36:58,572 log 6825 6191509504 Not Found: /deps/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-09 17:36:58,572 basehttp 6825 6191509504 "GET /deps/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2584
+INFO 2024-03-09 17:38:30,618 basehttp 6825 6191509504 "GET / HTTP/1.1" 200 1867
+WARNING 2024-03-09 17:38:30,644 log 6825 6191509504 Not Found: /deps/recet.css
+WARNING 2024-03-09 17:38:30,646 basehttp 6825 6191509504 "GET /deps/recet.css HTTP/1.1" 404 2461
+WARNING 2024-03-09 17:38:30,650 log 6825 6208335872 Not Found: /deps/styles/styles.css}
+WARNING 2024-03-09 17:38:30,650 basehttp 6825 6208335872 "GET /deps/styles/styles.css%7D HTTP/1.1" 404 2490
+INFO 2024-03-09 17:40:08,925 basehttp 6825 6191509504 "GET / HTTP/1.1" 200 1738
+WARNING 2024-03-09 17:40:08,951 log 6825 6191509504 Not Found: /deps/recet.css
+WARNING 2024-03-09 17:40:08,954 basehttp 6825 6191509504 "GET /deps/recet.css HTTP/1.1" 404 2461
+WARNING 2024-03-09 17:40:08,958 log 6825 6208335872 Not Found: /deps/styles/styles.css}
+WARNING 2024-03-09 17:40:08,959 basehttp 6825 6208335872 "GET /deps/styles/styles.css%7D HTTP/1.1" 404 2490
+WARNING 2024-03-09 17:42:19,029 log 6825 6191509504 Not Found: /price.html
+WARNING 2024-03-09 17:42:19,030 basehttp 6825 6191509504 "GET /price.html HTTP/1.1" 404 2449
+INFO 2024-03-10 06:14:58,173 basehttp 6825 6191509504 "GET / HTTP/1.1" 200 1733
+WARNING 2024-03-10 06:14:58,191 log 6825 6191509504 Not Found: /assets/recet.css
+WARNING 2024-03-10 06:14:58,191 basehttp 6825 6191509504 "GET /assets/recet.css HTTP/1.1" 404 2467
+WARNING 2024-03-10 06:14:58,196 log 6825 6208335872 Not Found: /assets/styles/styles.css
+WARNING 2024-03-10 06:14:58,196 basehttp 6825 6208335872 "GET /assets/styles/styles.css HTTP/1.1" 404 2491
+WARNING 2024-03-10 06:14:58,235 log 6825 6191509504 Not Found: /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 06:14:58,236 basehttp 6825 6191509504 "GET /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2590
+INFO 2024-03-10 06:18:15,563 autoreload 6825 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop/settings.py changed, reloading.
+INFO 2024-03-10 06:18:15,934 autoreload 7247 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-10 06:24:19,431 autoreload 7247 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop/settings.py changed, reloading.
+INFO 2024-03-10 06:24:19,765 autoreload 7269 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-10 06:24:26,109 basehttp 7269 6168899584 "GET / HTTP/1.1" 200 1734
+WARNING 2024-03-10 06:24:26,152 log 7269 6168899584 Not Found: /assets/recet.css
+WARNING 2024-03-10 06:24:26,153 log 7269 6185725952 Not Found: /assets/styles/styles.css
+WARNING 2024-03-10 06:24:26,154 basehttp 7269 6168899584 "GET /assets/recet.css HTTP/1.1" 404 2467
+WARNING 2024-03-10 06:24:26,154 basehttp 7269 6185725952 "GET /assets/styles/styles.css HTTP/1.1" 404 2491
+WARNING 2024-03-10 06:24:26,183 log 7269 6168899584 Not Found: /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 06:24:26,184 basehttp 7269 6168899584 "GET /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2590
+ERROR 2024-03-10 06:33:50,931 log 7269 6168899584 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py", line 9, in index
+    return render(request, 'workshop_app/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 292, in do_extends
+    parent_name = parser.compile_filter(bits[1])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''base.html' from ''base.html'
+ERROR 2024-03-10 06:33:50,934 basehttp 7269 6168899584 "GET / HTTP/1.1" 500 139295
+ERROR 2024-03-10 06:39:44,715 log 7269 6168899584 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py", line 9, in index
+    return render(request, 'workshop_app/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 514, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 531, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'base.html'> must be the first tag in the template.
+ERROR 2024-03-10 06:39:44,717 basehttp 7269 6168899584 "GET / HTTP/1.1" 500 124179
+INFO 2024-03-10 06:40:11,213 basehttp 7269 6168899584 "GET / HTTP/1.1" 200 1705
+WARNING 2024-03-10 06:40:11,240 log 7269 6168899584 Not Found: /assets/recet.css
+WARNING 2024-03-10 06:40:11,242 basehttp 7269 6168899584 "GET /assets/recet.css HTTP/1.1" 404 2467
+WARNING 2024-03-10 06:40:11,247 log 7269 6185725952 Not Found: /assets/styles/styles.css
+WARNING 2024-03-10 06:40:11,247 basehttp 7269 6185725952 "GET /assets/styles/styles.css HTTP/1.1" 404 2491
+WARNING 2024-03-10 06:40:11,286 log 7269 6168899584 Not Found: /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 06:40:11,287 basehttp 7269 6168899584 "GET /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2590
+INFO 2024-03-10 06:52:09,465 autoreload 7269 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop/settings.py changed, reloading.
+INFO 2024-03-10 06:52:09,817 autoreload 7402 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-10 06:54:54,662 autoreload 7402 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop/settings.py changed, reloading.
+INFO 2024-03-10 06:54:54,983 autoreload 7421 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-10 06:55:17,290 basehttp 7421 6168178688 "GET / HTTP/1.1" 200 1721
+INFO 2024-03-10 06:55:17,308 basehttp 7421 6168178688 "GET /static/assets/recet.css HTTP/1.1" 200 2693
+INFO 2024-03-10 06:55:17,311 basehttp 7421 6185005056 "GET /static/assets/styles/styles.css HTTP/1.1" 200 1978
+INFO 2024-03-10 06:55:17,340 basehttp 7421 6168178688 "GET /static/assets/fonts/Gabriela%20script.ttf HTTP/1.1" 200 107948
+WARNING 2024-03-10 06:55:17,351 log 7421 6168178688 Not Found: /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 06:55:17,352 basehttp 7421 6168178688 "GET /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2590
+ERROR 2024-03-10 06:57:09,379 log 7421 6168178688 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static"https://fonts.gstatic.com"'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py", line 9, in index
+    return render(request, 'workshop_app/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 18: 'static"https://fonts.gstatic.com"'. Did you forget to register or load this tag?
+ERROR 2024-03-10 06:57:09,382 basehttp 7421 6168178688 "GET / HTTP/1.1" 500 156534
+INFO 2024-03-10 06:58:01,262 basehttp 7421 6168178688 "GET / HTTP/1.1" 200 1774
+WARNING 2024-03-10 06:58:01,301 basehttp 7421 6168178688 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 06:58:01,316 log 7421 6168178688 Not Found: /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 06:58:01,316 basehttp 7421 6168178688 "GET /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2590
+INFO 2024-03-10 07:06:21,614 basehttp 7421 6168178688 "GET / HTTP/1.1" 200 1772
+WARNING 2024-03-10 07:06:21,647 basehttp 7421 6168178688 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 07:06:21,661 log 7421 6168178688 Not Found: /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 07:06:21,661 basehttp 7421 6168178688 "GET /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2590
+INFO 2024-03-10 07:08:09,266 basehttp 7421 6168178688 "GET / HTTP/1.1" 200 1770
+WARNING 2024-03-10 07:08:09,306 basehttp 7421 6168178688 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 07:08:09,321 log 7421 6168178688 Not Found: /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 07:08:09,321 basehttp 7421 6168178688 "GET /assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2590
+INFO 2024-03-10 07:14:35,689 basehttp 7421 6168178688 "GET / HTTP/1.1" 200 1776
+WARNING 2024-03-10 07:14:35,728 basehttp 7421 6168178688 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 07:14:35,740 basehttp 7421 6168178688 "GET /static/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 200 399270
+WARNING 2024-03-10 07:17:51,275 log 7421 6168178688 Not Found: /price.html
+WARNING 2024-03-10 07:17:51,276 basehttp 7421 6168178688 "GET /price.html HTTP/1.1" 404 2449
+INFO 2024-03-10 09:14:33,755 autoreload 7421 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py changed, reloading.
+INFO 2024-03-10 09:14:34,080 autoreload 7821 8117490432 Watching for file changes with StatReloader
+WARNING 2024-03-10 09:14:42,081 log 7821 6202929152 Not Found: /about.html
+WARNING 2024-03-10 09:14:42,082 basehttp 7821 6202929152 "GET /about.html HTTP/1.1" 404 2616
+WARNING 2024-03-10 09:15:35,917 log 7821 6202929152 Not Found: /index.html
+WARNING 2024-03-10 09:15:35,918 basehttp 7821 6202929152 "GET /index.html HTTP/1.1" 404 2616
+INFO 2024-03-10 09:16:12,260 basehttp 7821 6202929152 "GET /about/ HTTP/1.1" 200 3384
+WARNING 2024-03-10 09:16:12,290 log 7821 6202929152 Not Found: /about/assets/recet.css
+WARNING 2024-03-10 09:16:12,292 basehttp 7821 6202929152 "GET /about/assets/recet.css HTTP/1.1" 404 2652
+WARNING 2024-03-10 09:16:12,296 log 7821 6219755520 Not Found: /about/assets/styles/styles.css
+WARNING 2024-03-10 09:16:12,296 basehttp 7821 6219755520 "GET /about/assets/styles/styles.css HTTP/1.1" 404 2676
+WARNING 2024-03-10 09:16:12,321 log 7821 6202929152 Not Found: /about/assets/images/Денис.JPEG
+WARNING 2024-03-10 09:16:12,321 basehttp 7821 6202929152 "GET /about/assets/images/%D0%94%D0%B5%D0%BD%D0%B8%D1%81.JPEG HTTP/1.1" 404 2711
+WARNING 2024-03-10 09:16:12,348 log 7821 6202929152 Not Found: /about/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 09:16:12,348 basehttp 7821 6202929152 "GET /about/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2775
+WARNING 2024-03-10 09:16:12,350 log 7821 6219755520 Not Found: /about/assets/images/Денис.JPEG
+WARNING 2024-03-10 09:16:12,350 basehttp 7821 6219755520 "GET /about/assets/images/%D0%94%D0%B5%D0%BD%D0%B8%D1%81.JPEG HTTP/1.1" 404 2711
+INFO 2024-03-10 09:17:29,563 basehttp 7821 6202929152 "GET /about/ HTTP/1.1" 200 3384
+WARNING 2024-03-10 09:17:29,593 log 7821 6202929152 Not Found: /about/assets/recet.css
+WARNING 2024-03-10 09:17:29,593 basehttp 7821 6202929152 "GET /about/assets/recet.css HTTP/1.1" 404 2652
+WARNING 2024-03-10 09:17:29,595 log 7821 6219755520 Not Found: /about/assets/styles/styles.css
+WARNING 2024-03-10 09:17:29,595 basehttp 7821 6219755520 "GET /about/assets/styles/styles.css HTTP/1.1" 404 2676
+WARNING 2024-03-10 09:17:29,613 log 7821 6202929152 Not Found: /about/assets/images/Денис.JPEG
+WARNING 2024-03-10 09:17:29,613 basehttp 7821 6202929152 "GET /about/assets/images/%D0%94%D0%B5%D0%BD%D0%B8%D1%81.JPEG HTTP/1.1" 404 2711
+WARNING 2024-03-10 09:17:29,639 log 7821 6202929152 Not Found: /about/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 09:17:29,640 basehttp 7821 6202929152 "GET /about/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2775
+WARNING 2024-03-10 09:17:29,641 log 7821 6219755520 Not Found: /about/assets/images/Денис.JPEG
+WARNING 2024-03-10 09:17:29,641 basehttp 7821 6219755520 "GET /about/assets/images/%D0%94%D0%B5%D0%BD%D0%B8%D1%81.JPEG HTTP/1.1" 404 2711
+INFO 2024-03-10 09:17:58,134 basehttp 7821 6202929152 "GET /about/ HTTP/1.1" 200 3384
+WARNING 2024-03-10 09:17:58,160 log 7821 6202929152 Not Found: /about/assets/recet.css
+WARNING 2024-03-10 09:17:58,162 basehttp 7821 6202929152 "GET /about/assets/recet.css HTTP/1.1" 404 2652
+WARNING 2024-03-10 09:17:58,164 log 7821 6219755520 Not Found: /about/assets/styles/styles.css
+WARNING 2024-03-10 09:17:58,164 basehttp 7821 6219755520 "GET /about/assets/styles/styles.css HTTP/1.1" 404 2676
+WARNING 2024-03-10 09:17:58,190 log 7821 6202929152 Not Found: /about/assets/images/Денис.JPEG
+WARNING 2024-03-10 09:17:58,190 basehttp 7821 6202929152 "GET /about/assets/images/%D0%94%D0%B5%D0%BD%D0%B8%D1%81.JPEG HTTP/1.1" 404 2711
+WARNING 2024-03-10 09:17:58,214 log 7821 6202929152 Not Found: /about/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 09:17:58,214 basehttp 7821 6202929152 "GET /about/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2775
+WARNING 2024-03-10 09:17:58,216 log 7821 6219755520 Not Found: /about/assets/images/Денис.JPEG
+WARNING 2024-03-10 09:17:58,216 basehttp 7821 6219755520 "GET /about/assets/images/%D0%94%D0%B5%D0%BD%D0%B8%D1%81.JPEG HTTP/1.1" 404 2711
+INFO 2024-03-10 09:20:55,747 basehttp 7821 6202929152 "GET /about/ HTTP/1.1" 200 1772
+WARNING 2024-03-10 09:20:55,785 basehttp 7821 6202929152 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 09:21:30,824 log 7821 6202929152 Not Found: /about/about.html
+WARNING 2024-03-10 09:21:30,824 basehttp 7821 6202929152 "GET /about/about.html HTTP/1.1" 404 2634
+WARNING 2024-03-10 09:21:52,416 log 7821 6202929152 Not Found: /index.html
+WARNING 2024-03-10 09:21:52,417 basehttp 7821 6202929152 "GET /index.html HTTP/1.1" 404 2616
+WARNING 2024-03-10 09:21:56,922 log 7821 6202929152 Not Found: /index
+WARNING 2024-03-10 09:21:56,923 basehttp 7821 6202929152 "GET /index HTTP/1.1" 404 2601
+WARNING 2024-03-10 09:22:25,486 log 7821 6202929152 Not Found: /index
+WARNING 2024-03-10 09:22:25,486 basehttp 7821 6202929152 "GET /index HTTP/1.1" 404 2601
+INFO 2024-03-10 09:22:37,263 basehttp 7821 6202929152 "GET /about/ HTTP/1.1" 200 3384
+WARNING 2024-03-10 09:22:37,292 log 7821 6202929152 Not Found: /about/assets/recet.css
+WARNING 2024-03-10 09:22:37,294 basehttp 7821 6202929152 "GET /about/assets/recet.css HTTP/1.1" 404 2652
+WARNING 2024-03-10 09:22:37,299 log 7821 6219755520 Not Found: /about/assets/styles/styles.css
+WARNING 2024-03-10 09:22:37,299 basehttp 7821 6219755520 "GET /about/assets/styles/styles.css HTTP/1.1" 404 2676
+WARNING 2024-03-10 09:22:37,324 log 7821 6202929152 Not Found: /about/assets/images/Денис.JPEG
+WARNING 2024-03-10 09:22:37,324 basehttp 7821 6202929152 "GET /about/assets/images/%D0%94%D0%B5%D0%BD%D0%B8%D1%81.JPEG HTTP/1.1" 404 2711
+WARNING 2024-03-10 09:22:37,350 log 7821 6202929152 Not Found: /about/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 09:22:37,350 basehttp 7821 6202929152 "GET /about/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2775
+WARNING 2024-03-10 09:22:37,351 log 7821 6219755520 Not Found: /about/assets/images/Денис.JPEG
+WARNING 2024-03-10 09:22:37,352 basehttp 7821 6219755520 "GET /about/assets/images/%D0%94%D0%B5%D0%BD%D0%B8%D1%81.JPEG HTTP/1.1" 404 2711
+INFO 2024-03-10 09:22:50,313 basehttp 7821 6202929152 "GET /about/ HTTP/1.1" 200 1772
+WARNING 2024-03-10 09:22:50,351 basehttp 7821 6202929152 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 09:24:28,879 autoreload 7821 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop_app/urls.py changed, reloading.
+INFO 2024-03-10 09:24:29,212 autoreload 7884 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-10 09:24:38,191 basehttp 7884 6201929728 "GET /index/ HTTP/1.1" 200 1775
+WARNING 2024-03-10 09:24:38,239 basehttp 7884 6201929728 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 09:25:55,062 basehttp 7884 6201929728 "GET /index/ HTTP/1.1" 200 1767
+WARNING 2024-03-10 09:25:55,102 basehttp 7884 6201929728 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 09:26:57,888 basehttp 7884 6201929728 "GET /index/ HTTP/1.1" 200 1959
+WARNING 2024-03-10 09:26:57,927 basehttp 7884 6201929728 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 09:27:13,171 basehttp 7884 6201929728 "GET /index/ HTTP/1.1" 200 1973
+WARNING 2024-03-10 09:27:13,209 basehttp 7884 6201929728 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 10:05:18,400 basehttp 7884 6201929728 "GET /index/ HTTP/1.1" 200 1782
+WARNING 2024-03-10 10:05:18,440 basehttp 7884 6201929728 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 10:06:27,915 basehttp 7884 6201929728 "GET /index/ HTTP/1.1" 200 1766
+WARNING 2024-03-10 10:06:27,954 basehttp 7884 6201929728 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 10:06:51,952 log 7884 6201929728 Not Found: /index/about.html
+WARNING 2024-03-10 10:06:51,953 basehttp 7884 6201929728 "GET /index/about.html HTTP/1.1" 404 2801
+WARNING 2024-03-10 10:07:05,459 log 7884 6201929728 Not Found: /index/about.html
+WARNING 2024-03-10 10:07:05,460 basehttp 7884 6201929728 "GET /index/about.html HTTP/1.1" 404 2801
+WARNING 2024-03-10 10:07:10,323 log 7884 6201929728 Not Found: /index/about
+WARNING 2024-03-10 10:07:10,324 basehttp 7884 6201929728 "GET /index/about HTTP/1.1" 404 2786
+INFO 2024-03-10 10:07:19,816 basehttp 7884 6201929728 "GET /about HTTP/1.1" 301 0
+INFO 2024-03-10 10:07:19,829 basehttp 7884 6201929728 "GET /about/ HTTP/1.1" 200 3385
+WARNING 2024-03-10 10:07:19,857 log 7884 6201929728 Not Found: /about/assets/recet.css
+WARNING 2024-03-10 10:07:19,860 basehttp 7884 6201929728 "GET /about/assets/recet.css HTTP/1.1" 404 2819
+WARNING 2024-03-10 10:07:19,863 log 7884 6218756096 Not Found: /about/assets/styles/styles.css
+WARNING 2024-03-10 10:07:19,863 basehttp 7884 6218756096 "GET /about/assets/styles/styles.css HTTP/1.1" 404 2843
+WARNING 2024-03-10 10:07:19,873 log 7884 6201929728 Not Found: /about/assets/images/Денис.JPEG
+WARNING 2024-03-10 10:07:19,874 basehttp 7884 6201929728 "GET /about/assets/images/%D0%94%D0%B5%D0%BD%D0%B8%D1%81.JPEG HTTP/1.1" 404 2878
+WARNING 2024-03-10 10:07:19,902 log 7884 6201929728 Not Found: /about/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 10:07:19,903 basehttp 7884 6201929728 "GET /about/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2942
+WARNING 2024-03-10 10:07:19,904 log 7884 6218756096 Not Found: /about/assets/images/Денис.JPEG
+WARNING 2024-03-10 10:07:19,904 basehttp 7884 6218756096 "GET /about/assets/images/%D0%94%D0%B5%D0%BD%D0%B8%D1%81.JPEG HTTP/1.1" 404 2878
+INFO 2024-03-10 10:09:54,940 basehttp 7884 6201929728 "GET /about/ HTTP/1.1" 200 3460
+WARNING 2024-03-10 10:09:54,968 log 7884 6201929728 Not Found: /about/assets/images/Денис.JPEG
+WARNING 2024-03-10 10:09:54,968 basehttp 7884 6201929728 "GET /about/assets/images/%D0%94%D0%B5%D0%BD%D0%B8%D1%81.JPEG HTTP/1.1" 404 2878
+WARNING 2024-03-10 10:09:54,975 log 7884 6201929728 Not Found: /about/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 10:09:54,976 basehttp 7884 6201929728 "GET /about/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2942
+INFO 2024-03-10 10:12:11,262 basehttp 7884 6201929728 "GET /about/ HTTP/1.1" 200 3440
+WARNING 2024-03-10 10:12:11,296 basehttp 7884 6201929728 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 10:12:11,305 log 7884 6201929728 Not Found: /about/assets/images/Денис.JPEG
+WARNING 2024-03-10 10:12:11,305 basehttp 7884 6201929728 "GET /about/assets/images/%D0%94%D0%B5%D0%BD%D0%B8%D1%81.JPEG HTTP/1.1" 404 2878
+WARNING 2024-03-10 10:12:11,318 log 7884 6201929728 Not Found: /about/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 10:12:11,319 basehttp 7884 6201929728 "GET /about/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2942
+INFO 2024-03-10 10:18:13,076 basehttp 7884 6201929728 "GET /about/ HTTP/1.1" 200 3440
+WARNING 2024-03-10 10:18:13,112 basehttp 7884 6201929728 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 10:18:13,121 log 7884 6201929728 Not Found: /about/assets/images/Денис.JPEG
+WARNING 2024-03-10 10:18:13,121 basehttp 7884 6201929728 "GET /about/assets/images/%D0%94%D0%B5%D0%BD%D0%B8%D1%81.JPEG HTTP/1.1" 404 2878
+WARNING 2024-03-10 10:18:13,131 log 7884 6201929728 Not Found: /about/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 10:18:13,132 basehttp 7884 6201929728 "GET /about/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 2942
+INFO 2024-03-10 10:19:40,807 basehttp 7884 6201929728 "GET /about/ HTTP/1.1" 200 3448
+WARNING 2024-03-10 10:19:40,843 basehttp 7884 6201929728 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 10:19:40,857 log 7884 6201929728 Not Found: /about/assets/images/Денис.JPEG
+WARNING 2024-03-10 10:19:40,857 basehttp 7884 6201929728 "GET /about/assets/images/%D0%94%D0%B5%D0%BD%D0%B8%D1%81.JPEG HTTP/1.1" 404 2878
+INFO 2024-03-10 11:08:46,993 basehttp 7884 6201929728 "GET /about/ HTTP/1.1" 200 3406
+WARNING 2024-03-10 11:08:47,030 basehttp 7884 6201929728 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 11:10:00,161 basehttp 7884 6201929728 "GET /about/ HTTP/1.1" 200 3476
+WARNING 2024-03-10 11:10:00,198 basehttp 7884 6201929728 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 11:10:00,218 basehttp 7884 6201929728 "GET /static/assets/images/%D0%94%D0%B5%D0%BD%D0%B8%D1%81.JPEG HTTP/1.1" 200 2781594
+WARNING 2024-03-10 11:10:21,897 log 7884 6201929728 Not Found: /about/price.html
+WARNING 2024-03-10 11:10:21,897 basehttp 7884 6201929728 "GET /about/price.html HTTP/1.1" 404 2801
+WARNING 2024-03-10 11:10:26,709 log 7884 6201929728 Not Found: /about/index.html
+WARNING 2024-03-10 11:10:26,710 basehttp 7884 6201929728 "GET /about/index.html HTTP/1.1" 404 2801
+WARNING 2024-03-10 11:11:01,131 log 7884 6201929728 Not Found: /about/price.html
+WARNING 2024-03-10 11:11:01,132 basehttp 7884 6201929728 "GET /about/price.html HTTP/1.1" 404 2801
+WARNING 2024-03-10 11:11:05,877 log 7884 6201929728 Not Found: /about/index.html
+WARNING 2024-03-10 11:11:05,878 basehttp 7884 6201929728 "GET /about/index.html HTTP/1.1" 404 2801
+INFO 2024-03-10 11:11:38,579 autoreload 7884 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop_app/urls.py changed, reloading.
+INFO 2024-03-10 11:11:38,945 autoreload 8725 8117490432 Watching for file changes with StatReloader
+WARNING 2024-03-10 11:11:41,164 log 8725 6135754752 Not Found: /about/index.html
+WARNING 2024-03-10 11:11:41,165 basehttp 8725 6135754752 "GET /about/index.html HTTP/1.1" 404 2634
+WARNING 2024-03-10 11:11:47,779 log 8725 6135754752 Not Found: /about/index
+WARNING 2024-03-10 11:11:47,781 basehttp 8725 6135754752 "GET /about/index HTTP/1.1" 404 2619
+WARNING 2024-03-10 11:11:56,702 basehttp 8725 6135754752 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 11:12:30,411 basehttp 8725 6135754752 "GET / HTTP/1.1" 200 1964
+WARNING 2024-03-10 11:12:30,478 basehttp 8725 6135754752 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 11:13:39,431 autoreload 8738 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-10 11:13:40,975 basehttp 8738 6195867648 "GET / HTTP/1.1" 200 1964
+WARNING 2024-03-10 11:13:41,006 basehttp 8738 6195867648 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 11:13:45,611 log 8738 6195867648 Not Found: /about.html
+WARNING 2024-03-10 11:13:45,613 basehttp 8738 6195867648 "GET /about.html HTTP/1.1" 404 2616
+INFO 2024-03-10 11:13:56,943 autoreload 8738 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop_app/urls.py changed, reloading.
+INFO 2024-03-10 11:13:57,194 autoreload 8748 8117490432 Watching for file changes with StatReloader
+WARNING 2024-03-10 11:13:57,962 log 8748 6131019776 Not Found: /about.html
+WARNING 2024-03-10 11:13:57,963 basehttp 8748 6131019776 "GET /about.html HTTP/1.1" 404 2783
+INFO 2024-03-10 11:14:03,783 basehttp 8748 6131019776 "GET /about/ HTTP/1.1" 200 3476
+WARNING 2024-03-10 11:14:03,827 basehttp 8748 6131019776 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 11:15:29,111 autoreload 8748 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py changed, reloading.
+INFO 2024-03-10 11:15:29,433 autoreload 8835 8117490432 Watching for file changes with StatReloader
+ERROR 2024-03-10 11:15:32,431 log 8835 6159544320 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py", line 13, in about
+    return render(request, 'about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: about.html
+ERROR 2024-03-10 11:15:32,433 basehttp 8835 6159544320 "GET /about/ HTTP/1.1" 500 75035
+INFO 2024-03-10 11:15:55,070 autoreload 8835 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py changed, reloading.
+INFO 2024-03-10 11:15:55,320 autoreload 8845 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-10 11:16:59,422 basehttp 8845 6134575104 "GET /about/ HTTP/1.1" 200 3490
+WARNING 2024-03-10 11:16:59,465 basehttp 8845 6134575104 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 11:17:04,825 log 8845 6134575104 Not Found: /about/workshop__app/index.html
+WARNING 2024-03-10 11:17:04,825 basehttp 8845 6134575104 "GET /about/workshop__app/index.html HTTP/1.1" 404 2843
+WARNING 2024-03-10 11:17:19,984 log 8845 6134575104 Not Found: /about/workshop__app/index.html
+WARNING 2024-03-10 11:17:19,985 basehttp 8845 6134575104 "GET /about/workshop__app/index.html HTTP/1.1" 404 2843
+WARNING 2024-03-10 11:17:24,367 log 8845 6134575104 Not Found: /about/workshop__app/index.html
+WARNING 2024-03-10 11:17:24,368 basehttp 8845 6134575104 "GET /about/workshop__app/index.html HTTP/1.1" 404 2843
+WARNING 2024-03-10 11:17:28,654 log 8845 6134575104 Not Found: /about/workshop__app/index.html
+WARNING 2024-03-10 11:17:28,654 basehttp 8845 6134575104 "GET /about/workshop__app/index.html HTTP/1.1" 404 2843
+WARNING 2024-03-10 11:17:38,008 log 8845 6134575104 Not Found: /about/workshop__app/index.html
+WARNING 2024-03-10 11:17:38,009 basehttp 8845 6134575104 "GET /about/workshop__app/index.html HTTP/1.1" 404 2843
+WARNING 2024-03-10 11:17:49,930 log 8845 6134575104 Not Found: /about/workshop__app/index.html
+WARNING 2024-03-10 11:17:49,931 basehttp 8845 6134575104 "GET /about/workshop__app/index.html HTTP/1.1" 404 2843
+WARNING 2024-03-10 11:17:54,288 log 8845 6134575104 Not Found: /about/workshop__app/index.html
+WARNING 2024-03-10 11:17:54,288 basehttp 8845 6134575104 "GET /about/workshop__app/index.html HTTP/1.1" 404 2843
+WARNING 2024-03-10 11:23:51,084 log 8845 6134575104 Not Found: /about/workshop__app/index.html
+WARNING 2024-03-10 11:23:51,085 basehttp 8845 6134575104 "GET /about/workshop__app/index.html HTTP/1.1" 404 2843
+WARNING 2024-03-10 11:23:59,302 log 8845 6134575104 Not Found: /index.html
+WARNING 2024-03-10 11:23:59,302 basehttp 8845 6134575104 "GET /index.html HTTP/1.1" 404 2783
+INFO 2024-03-10 11:24:06,690 basehttp 8845 6134575104 "GET /index HTTP/1.1" 301 0
+INFO 2024-03-10 11:24:06,703 basehttp 8845 6134575104 "GET /index/ HTTP/1.1" 200 1964
+WARNING 2024-03-10 11:24:06,743 basehttp 8845 6134575104 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 11:24:22,097 log 8845 6134575104 Not Found: /index/about.html
+WARNING 2024-03-10 11:24:22,097 basehttp 8845 6134575104 "GET /index/about.html HTTP/1.1" 404 2801
+INFO 2024-03-10 11:27:29,131 autoreload 8845 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py changed, reloading.
+INFO 2024-03-10 11:27:29,496 autoreload 8916 8117490432 Watching for file changes with StatReloader
+WARNING 2024-03-10 11:27:30,458 log 8916 6158807040 Not Found: /index/about.html
+WARNING 2024-03-10 11:27:30,459 basehttp 8916 6158807040 "GET /index/about.html HTTP/1.1" 404 2801
+ERROR 2024-03-10 11:27:37,311 log 8916 6158807040 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py", line 9, in index
+    return render(request, "index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2024-03-10 11:27:37,312 basehttp 8916 6158807040 "GET /index/ HTTP/1.1" 500 75028
+INFO 2024-03-10 11:28:11,581 autoreload 8916 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py changed, reloading.
+INFO 2024-03-10 11:28:11,941 autoreload 8926 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-10 11:28:14,427 basehttp 8926 6201389056 "GET /index/ HTTP/1.1" 200 1964
+WARNING 2024-03-10 11:28:14,476 basehttp 8926 6201389056 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 12:31:54,372 autoreload 8926 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py changed, reloading.
+INFO 2024-03-10 12:31:54,724 autoreload 9017 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-10 12:32:42,917 autoreload 9017 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop_app/urls.py changed, reloading.
+INFO 2024-03-10 12:32:43,171 autoreload 9030 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-10 12:35:06,750 autoreload 9030 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop_app/urls.py changed, reloading.
+INFO 2024-03-10 12:35:07,033 autoreload 9044 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-10 12:37:05,120 autoreload 9044 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop_app/urls.py changed, reloading.
+INFO 2024-03-10 12:37:05,450 autoreload 9064 8117490432 Watching for file changes with StatReloader
+WARNING 2024-03-10 12:37:07,006 log 9064 6161674240 Not Found: /index/price.html
+WARNING 2024-03-10 12:37:07,007 basehttp 9064 6161674240 "GET /index/price.html HTTP/1.1" 404 3308
+WARNING 2024-03-10 12:37:56,363 log 9064 6161674240 Not Found: /index/about.html
+WARNING 2024-03-10 12:37:56,366 basehttp 9064 6161674240 "GET /index/about.html HTTP/1.1" 404 3308
+WARNING 2024-03-10 12:38:04,456 log 9064 6161674240 Not Found: /index/about
+WARNING 2024-03-10 12:38:04,456 basehttp 9064 6161674240 "GET /index/about HTTP/1.1" 404 3293
+INFO 2024-03-10 12:38:14,179 basehttp 9064 6161674240 "GET /about/ HTTP/1.1" 200 3476
+WARNING 2024-03-10 12:38:14,224 basehttp 9064 6161674240 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 12:40:30,518 basehttp 9064 6161674240 "GET /index/ HTTP/1.1" 200 1964
+WARNING 2024-03-10 12:40:30,557 basehttp 9064 6161674240 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 12:43:46,940 basehttp 9064 6161674240 "GET /index/ HTTP/1.1" 200 1961
+WARNING 2024-03-10 12:43:46,981 basehttp 9064 6161674240 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 12:43:49,886 basehttp 9064 6161674240 "GET /price/ HTTP/1.1" 200 1748
+WARNING 2024-03-10 12:43:49,915 log 9064 6161674240 Not Found: /price/assets/recet.css
+WARNING 2024-03-10 12:43:49,915 basehttp 9064 6161674240 "GET /price/assets/recet.css HTTP/1.1" 404 3326
+WARNING 2024-03-10 12:43:49,925 log 9064 6178500608 Not Found: /price/assets/styles/styles.css
+WARNING 2024-03-10 12:43:49,926 basehttp 9064 6178500608 "GET /price/assets/styles/styles.css HTTP/1.1" 404 3350
+WARNING 2024-03-10 12:43:49,950 log 9064 6161674240 Not Found: /price/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 12:43:49,950 basehttp 9064 6161674240 "GET /price/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 3449
+INFO 2024-03-10 12:44:34,643 basehttp 9064 6161674240 "GET /index/ HTTP/1.1" 200 1958
+WARNING 2024-03-10 12:44:34,684 basehttp 9064 6161674240 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 12:44:36,883 basehttp 9064 6178500608 "GET /about/ HTTP/1.1" 200 3476
+WARNING 2024-03-10 12:44:36,924 basehttp 9064 6178500608 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 12:51:04,038 log 9064 6161674240 Not Found: /about/contacts.html
+WARNING 2024-03-10 12:51:04,039 basehttp 9064 6161674240 "GET /about/contacts.html HTTP/1.1" 404 3317
+WARNING 2024-03-10 12:51:31,687 log 9064 6161674240 Not Found: /about/index.html
+WARNING 2024-03-10 12:51:31,687 basehttp 9064 6161674240 "GET /about/index.html HTTP/1.1" 404 3308
+INFO 2024-03-10 12:52:02,856 basehttp 9064 6161674240 "GET /about/ HTTP/1.1" 200 3476
+WARNING 2024-03-10 12:52:02,922 basehttp 9064 6161674240 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 12:52:15,409 basehttp 9064 6161674240 "GET / HTTP/1.1" 200 1952
+WARNING 2024-03-10 12:52:15,450 basehttp 9064 6161674240 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 12:52:18,716 basehttp 9064 6161674240 "GET /contacts/ HTTP/1.1" 200 3602
+WARNING 2024-03-10 12:52:18,757 basehttp 9064 6161674240 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 12:52:30,715 basehttp 9064 6161674240 "GET /about/ HTTP/1.1" 200 3476
+WARNING 2024-03-10 12:52:30,756 basehttp 9064 6161674240 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 12:52:39,025 log 9064 6161674240 Not Found: /about/contacts.html
+WARNING 2024-03-10 12:52:39,026 basehttp 9064 6161674240 "GET /about/contacts.html HTTP/1.1" 404 3317
+ERROR 2024-03-10 12:58:04,129 log 9064 6161674240 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py", line 13, in about
+    return render(request, "workshop_app/about.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-03-10 12:58:04,131 basehttp 9064 6161674240 "GET /about/ HTTP/1.1" 500 162460
+INFO 2024-03-10 13:00:31,923 basehttp 9064 6161674240 "GET /about/ HTTP/1.1" 200 3558
+WARNING 2024-03-10 13:00:31,955 basehttp 9064 6161674240 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 13:01:15,311 basehttp 9064 6161674240 "GET /about/ HTTP/1.1" 200 3558
+WARNING 2024-03-10 13:01:15,348 basehttp 9064 6161674240 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 13:01:25,125 basehttp 9064 6161674240 "GET /price/ HTTP/1.1" 200 1796
+WARNING 2024-03-10 13:01:25,164 basehttp 9064 6161674240 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 13:01:26,875 basehttp 9064 6161674240 "GET /works/ HTTP/1.1" 200 3775
+WARNING 2024-03-10 13:01:26,901 log 9064 6161674240 Not Found: /works/assets/recet.css
+WARNING 2024-03-10 13:01:26,902 basehttp 9064 6161674240 "GET /works/assets/recet.css HTTP/1.1" 404 3326
+WARNING 2024-03-10 13:01:26,908 log 9064 6178500608 Not Found: /works/assets/styles/styles.css
+WARNING 2024-03-10 13:01:26,909 basehttp 9064 6178500608 "GET /works/assets/styles/styles.css HTTP/1.1" 404 3350
+WARNING 2024-03-10 13:01:26,923 log 9064 6161674240 Not Found: /works/assets/images/IMG_6171.jpg
+WARNING 2024-03-10 13:01:26,924 basehttp 9064 6161674240 "GET /works/assets/images/IMG_6171.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 13:01:26,925 log 9064 6178500608 Not Found: /works/assets/images/IMG_6172.jpg
+WARNING 2024-03-10 13:01:26,925 basehttp 9064 6178500608 "GET /works/assets/images/IMG_6172.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 13:01:26,954 log 9064 6161674240 Not Found: /works/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 13:01:26,956 basehttp 9064 6161674240 "GET /works/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 3449
+WARNING 2024-03-10 13:01:26,959 log 9064 6178500608 Not Found: /works/assets/images/IMG_6171.jpg
+WARNING 2024-03-10 13:01:26,960 basehttp 9064 6178500608 "GET /works/assets/images/IMG_6171.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 13:01:26,964 log 9064 6161674240 Not Found: /works/assets/images/IMG_6172.jpg
+WARNING 2024-03-10 13:01:26,964 basehttp 9064 6161674240 "GET /works/assets/images/IMG_6172.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 13:01:32,291 log 9064 6161674240 Not Found: /works/contacts.html
+WARNING 2024-03-10 13:01:32,292 basehttp 9064 6161674240 "GET /works/contacts.html HTTP/1.1" 404 3317
+WARNING 2024-03-10 13:01:38,707 log 9064 6161674240 Not Found: /works/about.html
+WARNING 2024-03-10 13:01:38,707 basehttp 9064 6161674240 "GET /works/about.html HTTP/1.1" 404 3308
+INFO 2024-03-10 13:02:44,714 autoreload 9064 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop_app/urls.py changed, reloading.
+INFO 2024-03-10 13:02:45,090 autoreload 9159 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-10 13:02:53,154 basehttp 9159 6196654080 "GET / HTTP/1.1" 200 1951
+WARNING 2024-03-10 13:02:53,208 basehttp 9159 6196654080 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 13:02:57,232 log 9159 6196654080 Not Found: /about/
+WARNING 2024-03-10 13:02:57,233 basehttp 9159 6196654080 "GET /about/ HTTP/1.1" 404 3277
+INFO 2024-03-10 13:03:19,944 autoreload 9159 8117490432 /Users/den/Desktop/piano_workshop/workshop/workshop_app/urls.py changed, reloading.
+INFO 2024-03-10 13:03:20,300 autoreload 9165 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-10 13:03:20,900 basehttp 9165 6200127488 "GET /about/ HTTP/1.1" 200 3558
+WARNING 2024-03-10 13:03:20,945 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:04:17,589 basehttp 9165 6200127488 "GET / HTTP/1.1" 200 2790
+WARNING 2024-03-10 14:04:17,720 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:05:49,487 basehttp 9165 6200127488 "GET / HTTP/1.1" 200 2790
+WARNING 2024-03-10 14:05:49,519 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:05:50,502 basehttp 9165 6200127488 "GET / HTTP/1.1" 200 2790
+WARNING 2024-03-10 14:05:50,538 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:07:06,840 basehttp 9165 6200127488 "GET / HTTP/1.1" 200 2896
+WARNING 2024-03-10 14:07:06,877 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:10:36,735 basehttp 9165 6200127488 "GET / HTTP/1.1" 200 2905
+WARNING 2024-03-10 14:10:36,771 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:12:43,485 basehttp 9165 6200127488 "GET / HTTP/1.1" 200 2909
+WARNING 2024-03-10 14:12:43,518 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:13:31,692 basehttp 9165 6200127488 "GET / HTTP/1.1" 200 2948
+WARNING 2024-03-10 14:13:31,732 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:17:25,733 basehttp 9165 6200127488 "GET / HTTP/1.1" 200 3012
+WARNING 2024-03-10 14:17:25,775 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:18:10,515 basehttp 9165 6200127488 "GET / HTTP/1.1" 200 3052
+WARNING 2024-03-10 14:18:10,555 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:19:45,471 basehttp 9165 6200127488 "GET / HTTP/1.1" 200 3072
+WARNING 2024-03-10 14:19:45,512 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:20:11,029 basehttp 9165 6200127488 "GET / HTTP/1.1" 200 3093
+WARNING 2024-03-10 14:20:11,062 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:23:19,183 basehttp 9165 6200127488 "GET / HTTP/1.1" 200 2479
+WARNING 2024-03-10 14:23:19,222 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:23:22,336 basehttp 9165 6200127488 "GET /price/ HTTP/1.1" 200 2323
+WARNING 2024-03-10 14:23:22,378 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:23:25,852 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 3775
+WARNING 2024-03-10 14:23:25,885 log 9165 6200127488 Not Found: /works/assets/recet.css
+WARNING 2024-03-10 14:23:25,886 basehttp 9165 6200127488 "GET /works/assets/recet.css HTTP/1.1" 404 3326
+WARNING 2024-03-10 14:23:25,887 log 9165 6216953856 Not Found: /works/assets/styles/styles.css
+WARNING 2024-03-10 14:23:25,887 basehttp 9165 6216953856 "GET /works/assets/styles/styles.css HTTP/1.1" 404 3350
+WARNING 2024-03-10 14:23:25,901 log 9165 6200127488 Not Found: /works/assets/images/IMG_6171.jpg
+WARNING 2024-03-10 14:23:25,902 basehttp 9165 6200127488 "GET /works/assets/images/IMG_6171.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 14:23:25,903 log 9165 6216953856 Not Found: /works/assets/images/IMG_6172.jpg
+WARNING 2024-03-10 14:23:25,904 basehttp 9165 6216953856 "GET /works/assets/images/IMG_6172.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 14:23:25,933 log 9165 6200127488 Not Found: /works/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 14:23:25,933 basehttp 9165 6200127488 "GET /works/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 3449
+WARNING 2024-03-10 14:23:25,942 log 9165 6200127488 Not Found: /works/assets/images/IMG_6171.jpg
+WARNING 2024-03-10 14:23:25,944 basehttp 9165 6200127488 "GET /works/assets/images/IMG_6171.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 14:23:25,946 log 9165 6216953856 Not Found: /works/assets/images/IMG_6172.jpg
+WARNING 2024-03-10 14:23:25,946 basehttp 9165 6216953856 "GET /works/assets/images/IMG_6172.jpg HTTP/1.1" 404 3356
+INFO 2024-03-10 14:23:32,607 basehttp 9165 6200127488 "GET /contacts/ HTTP/1.1" 200 4129
+WARNING 2024-03-10 14:23:32,646 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:23:36,903 basehttp 9165 6216953856 "GET /about/ HTTP/1.1" 200 4085
+WARNING 2024-03-10 14:23:36,940 basehttp 9165 6216953856 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:23:42,916 basehttp 9165 6200127488 "GET /index/ HTTP/1.1" 200 2479
+WARNING 2024-03-10 14:23:42,951 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:24:33,490 basehttp 9165 6200127488 "GET /index/ HTTP/1.1" 200 2486
+WARNING 2024-03-10 14:24:33,530 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:24:56,955 basehttp 9165 6200127488 "GET /index/ HTTP/1.1" 200 2538
+WARNING 2024-03-10 14:24:56,995 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:28:07,849 basehttp 9165 6200127488 "GET /index/ HTTP/1.1" 200 2581
+WARNING 2024-03-10 14:28:07,891 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:28:35,947 basehttp 9165 6200127488 "GET /index/ HTTP/1.1" 200 2566
+WARNING 2024-03-10 14:28:35,988 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:28:52,655 basehttp 9165 6200127488 "GET /index/ HTTP/1.1" 200 2553
+WARNING 2024-03-10 14:28:52,696 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:29:12,337 basehttp 9165 6200127488 "GET /index/ HTTP/1.1" 200 2553
+WARNING 2024-03-10 14:29:12,380 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:29:25,728 basehttp 9165 6200127488 "GET /index/ HTTP/1.1" 200 2546
+WARNING 2024-03-10 14:29:25,771 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:29:53,898 basehttp 9165 6200127488 "GET /index/ HTTP/1.1" 200 2546
+WARNING 2024-03-10 14:29:53,939 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:29:55,179 basehttp 9165 6200127488 "GET /price/ HTTP/1.1" 200 2383
+WARNING 2024-03-10 14:29:55,216 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:29:57,835 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 3775
+WARNING 2024-03-10 14:29:57,864 log 9165 6200127488 Not Found: /works/assets/recet.css
+WARNING 2024-03-10 14:29:57,866 basehttp 9165 6200127488 "GET /works/assets/recet.css HTTP/1.1" 404 3326
+WARNING 2024-03-10 14:29:57,871 log 9165 6216953856 Not Found: /works/assets/styles/styles.css
+WARNING 2024-03-10 14:29:57,871 basehttp 9165 6216953856 "GET /works/assets/styles/styles.css HTTP/1.1" 404 3350
+WARNING 2024-03-10 14:29:57,885 log 9165 6200127488 Not Found: /works/assets/images/IMG_6171.jpg
+WARNING 2024-03-10 14:29:57,885 basehttp 9165 6200127488 "GET /works/assets/images/IMG_6171.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 14:29:57,887 log 9165 6216953856 Not Found: /works/assets/images/IMG_6172.jpg
+WARNING 2024-03-10 14:29:57,887 basehttp 9165 6216953856 "GET /works/assets/images/IMG_6172.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 14:29:57,918 log 9165 6200127488 Not Found: /works/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 14:29:57,918 basehttp 9165 6200127488 "GET /works/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 3449
+WARNING 2024-03-10 14:29:57,920 log 9165 6216953856 Not Found: /works/assets/images/IMG_6171.jpg
+WARNING 2024-03-10 14:29:57,922 basehttp 9165 6216953856 "GET /works/assets/images/IMG_6171.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 14:29:57,924 log 9165 6200127488 Not Found: /works/assets/images/IMG_6172.jpg
+WARNING 2024-03-10 14:29:57,925 basehttp 9165 6200127488 "GET /works/assets/images/IMG_6172.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 14:30:01,471 log 9165 6200127488 Not Found: /works/contacts.html
+WARNING 2024-03-10 14:30:01,472 basehttp 9165 6200127488 "GET /works/contacts.html HTTP/1.1" 404 3317
+WARNING 2024-03-10 14:30:04,259 log 9165 6200127488 Not Found: /works/about.html
+WARNING 2024-03-10 14:30:04,260 basehttp 9165 6200127488 "GET /works/about.html HTTP/1.1" 404 3308
+INFO 2024-03-10 14:30:09,542 basehttp 9165 6200127488 "GET /contacts/ HTTP/1.1" 200 4189
+WARNING 2024-03-10 14:30:09,585 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:30:13,187 basehttp 9165 6216953856 "GET /about/ HTTP/1.1" 200 4145
+WARNING 2024-03-10 14:30:13,229 basehttp 9165 6216953856 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:30:14,501 basehttp 9165 6200127488 "GET /contacts/ HTTP/1.1" 200 4189
+WARNING 2024-03-10 14:30:14,545 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:31:10,748 basehttp 9165 6200127488 "GET /index/ HTTP/1.1" 200 2546
+WARNING 2024-03-10 14:31:10,796 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:34:13,047 basehttp 9165 6200127488 "GET /index/ HTTP/1.1" 200 2552
+WARNING 2024-03-10 14:34:13,086 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:34:50,538 basehttp 9165 6200127488 "GET /price/ HTTP/1.1" 200 2389
+WARNING 2024-03-10 14:34:50,574 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:34:52,999 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 3775
+WARNING 2024-03-10 14:34:53,029 log 9165 6200127488 Not Found: /works/assets/recet.css
+WARNING 2024-03-10 14:34:53,030 basehttp 9165 6200127488 "GET /works/assets/recet.css HTTP/1.1" 404 3326
+WARNING 2024-03-10 14:34:53,035 log 9165 6216953856 Not Found: /works/assets/styles/styles.css
+WARNING 2024-03-10 14:34:53,036 basehttp 9165 6216953856 "GET /works/assets/styles/styles.css HTTP/1.1" 404 3350
+WARNING 2024-03-10 14:34:53,048 log 9165 6200127488 Not Found: /works/assets/images/IMG_6171.jpg
+WARNING 2024-03-10 14:34:53,050 basehttp 9165 6200127488 "GET /works/assets/images/IMG_6171.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 14:34:53,052 log 9165 6216953856 Not Found: /works/assets/images/IMG_6172.jpg
+WARNING 2024-03-10 14:34:53,052 basehttp 9165 6216953856 "GET /works/assets/images/IMG_6172.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 14:34:53,079 log 9165 6200127488 Not Found: /works/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 14:34:53,079 basehttp 9165 6200127488 "GET /works/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 3449
+WARNING 2024-03-10 14:34:53,093 log 9165 6200127488 Not Found: /works/assets/images/IMG_6171.jpg
+WARNING 2024-03-10 14:34:53,094 basehttp 9165 6200127488 "GET /works/assets/images/IMG_6171.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 14:34:53,095 log 9165 6216953856 Not Found: /works/assets/images/IMG_6172.jpg
+WARNING 2024-03-10 14:34:53,095 basehttp 9165 6216953856 "GET /works/assets/images/IMG_6172.jpg HTTP/1.1" 404 3356
+ERROR 2024-03-10 14:37:01,218 log 9165 6200127488 Internal Server Error: /works/
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py", line 25, in works
+    return render(request, "workshop_app/works.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 4: 'block'. Looking for one of: endblock.
+ERROR 2024-03-10 14:37:01,221 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 500 156778
+INFO 2024-03-10 14:37:29,135 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5263
+WARNING 2024-03-10 14:37:29,170 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 14:37:29,187 log 9165 6200127488 Not Found: /works/assets/recet.css
+WARNING 2024-03-10 14:37:29,189 basehttp 9165 6200127488 "GET /works/assets/recet.css HTTP/1.1" 404 3326
+WARNING 2024-03-10 14:37:29,191 log 9165 6216953856 Not Found: /works/assets/styles/styles.css
+WARNING 2024-03-10 14:37:29,191 basehttp 9165 6216953856 "GET /works/assets/styles/styles.css HTTP/1.1" 404 3350
+WARNING 2024-03-10 14:37:29,212 log 9165 6200127488 Not Found: /works/assets/images/IMG_6171.jpg
+WARNING 2024-03-10 14:37:29,213 basehttp 9165 6200127488 "GET /works/assets/images/IMG_6171.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 14:37:29,215 log 9165 6216953856 Not Found: /works/assets/images/IMG_6172.jpg
+WARNING 2024-03-10 14:37:29,215 basehttp 9165 6216953856 "GET /works/assets/images/IMG_6172.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 14:37:29,246 log 9165 6200127488 Not Found: /works/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 14:37:29,247 basehttp 9165 6200127488 "GET /works/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 3449
+INFO 2024-03-10 14:37:46,393 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5263
+WARNING 2024-03-10 14:37:46,430 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 14:37:46,454 log 9165 6216953856 Not Found: /works/assets/recet.css
+WARNING 2024-03-10 14:37:46,455 log 9165 6200127488 Not Found: /works/assets/styles/styles.css
+WARNING 2024-03-10 14:37:46,456 basehttp 9165 6216953856 "GET /works/assets/recet.css HTTP/1.1" 404 3326
+WARNING 2024-03-10 14:37:46,456 basehttp 9165 6200127488 "GET /works/assets/styles/styles.css HTTP/1.1" 404 3350
+WARNING 2024-03-10 14:37:46,472 log 9165 6216953856 Not Found: /works/assets/images/IMG_6171.jpg
+WARNING 2024-03-10 14:37:46,473 basehttp 9165 6216953856 "GET /works/assets/images/IMG_6171.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 14:37:46,474 log 9165 6200127488 Not Found: /works/assets/images/IMG_6172.jpg
+WARNING 2024-03-10 14:37:46,474 basehttp 9165 6200127488 "GET /works/assets/images/IMG_6172.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 14:37:46,505 log 9165 6216953856 Not Found: /works/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg
+WARNING 2024-03-10 14:37:46,505 basehttp 9165 6216953856 "GET /works/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 404 3449
+INFO 2024-03-10 14:38:16,854 basehttp 9165 6216953856 "GET /works/ HTTP/1.1" 200 4501
+WARNING 2024-03-10 14:38:16,893 basehttp 9165 6216953856 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 14:38:16,912 log 9165 6200127488 Not Found: /works/assets/images/IMG_6171.jpg
+WARNING 2024-03-10 14:38:16,912 basehttp 9165 6200127488 "GET /works/assets/images/IMG_6171.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 14:38:16,914 log 9165 6216953856 Not Found: /works/assets/images/IMG_6172.jpg
+WARNING 2024-03-10 14:38:16,914 basehttp 9165 6216953856 "GET /works/assets/images/IMG_6172.jpg HTTP/1.1" 404 3356
+INFO 2024-03-10 14:41:01,234 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 4509
+WARNING 2024-03-10 14:41:01,271 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-10 14:41:01,291 log 9165 6216953856 Not Found: /works/assets/images/IMG_6172.jpg
+WARNING 2024-03-10 14:41:01,292 basehttp 9165 6216953856 "GET /works/assets/images/IMG_6172.jpg HTTP/1.1" 404 3356
+WARNING 2024-03-10 14:41:01,299 log 9165 6216953856 Not Found: /works/assets/images/IMG_6171.jpg
+WARNING 2024-03-10 14:41:01,299 basehttp 9165 6216953856 "GET /works/assets/images/IMG_6171.jpg HTTP/1.1" 404 3356
+INFO 2024-03-10 14:41:01,300 basehttp 9165 6200127488 "GET /static/assets/images/IMG_6171.jpg HTTP/1.1" 200 1000326
+INFO 2024-03-10 14:43:54,146 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 4527
+WARNING 2024-03-10 14:43:54,182 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:43:54,199 basehttp 9165 6200127488 "GET /static/assets/images/IMG_6172.jpg HTTP/1.1" 200 410005
+INFO 2024-03-10 14:44:36,537 basehttp 9165 6200127488 "GET /index/ HTTP/1.1" 200 2552
+WARNING 2024-03-10 14:44:36,575 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:44:37,938 basehttp 9165 6200127488 "GET /price/ HTTP/1.1" 200 2389
+WARNING 2024-03-10 14:44:37,979 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:44:40,075 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 4527
+WARNING 2024-03-10 14:44:40,117 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:44:41,573 basehttp 9165 6200127488 "GET /contacts/ HTTP/1.1" 200 4195
+WARNING 2024-03-10 14:44:41,612 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:44:43,607 basehttp 9165 6200127488 "GET /about/ HTTP/1.1" 200 4151
+WARNING 2024-03-10 14:44:43,647 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:44:45,055 basehttp 9165 6200127488 "GET /index/ HTTP/1.1" 200 2552
+WARNING 2024-03-10 14:44:45,096 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:44:46,855 basehttp 9165 6200127488 "GET /contacts/ HTTP/1.1" 200 4195
+WARNING 2024-03-10 14:44:46,899 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:44:47,910 basehttp 9165 6200127488 "GET /price/ HTTP/1.1" 200 2389
+WARNING 2024-03-10 14:44:48,057 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:44:49,386 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 4527
+WARNING 2024-03-10 14:44:49,423 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:47:06,169 basehttp 9165 6200127488 "GET / HTTP/1.1" 200 3574
+WARNING 2024-03-10 14:47:06,236 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:47:14,061 basehttp 9165 6200127488 "GET /index/ HTTP/1.1" 200 3574
+WARNING 2024-03-10 14:47:14,095 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:47:15,316 basehttp 9165 6200127488 "GET /price/ HTTP/1.1" 200 3411
+WARNING 2024-03-10 14:47:15,353 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:47:18,320 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5549
+WARNING 2024-03-10 14:47:18,362 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:47:50,312 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5532
+WARNING 2024-03-10 14:47:50,350 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 14:49:38,521 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5511
+WARNING 2024-03-10 14:49:38,559 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:00:22,281 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5532
+WARNING 2024-03-10 16:00:22,317 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:01:18,302 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5525
+WARNING 2024-03-10 16:01:18,342 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:01:58,597 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5504
+WARNING 2024-03-10 16:01:58,635 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:02:02,794 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5504
+WARNING 2024-03-10 16:02:02,831 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:03:26,804 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5527
+WARNING 2024-03-10 16:03:26,844 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:03:28,484 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5527
+WARNING 2024-03-10 16:03:28,523 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:03:38,953 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5525
+WARNING 2024-03-10 16:03:38,992 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:06:29,006 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5564
+WARNING 2024-03-10 16:06:29,044 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:19:23,923 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5574
+WARNING 2024-03-10 16:19:23,957 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:20:46,305 basehttp 9165 6200127488 "GET / HTTP/1.1" 200 3543
+WARNING 2024-03-10 16:20:46,516 basehttp 9165 6216953856 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:20:52,280 basehttp 9165 6233780224 "GET / HTTP/1.1" 200 3543
+WARNING 2024-03-10 16:20:52,313 basehttp 9165 6233780224 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:20:59,774 basehttp 9165 6216953856 "GET /price/ HTTP/1.1" 200 3380
+WARNING 2024-03-10 16:20:59,808 basehttp 9165 6216953856 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:21:01,801 basehttp 9165 6216953856 "GET /works/ HTTP/1.1" 200 5518
+WARNING 2024-03-10 16:21:01,838 basehttp 9165 6216953856 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:21:03,240 basehttp 9165 6216953856 "GET /contacts/ HTTP/1.1" 200 5186
+WARNING 2024-03-10 16:21:03,280 basehttp 9165 6216953856 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:21:24,503 basehttp 9165 6216953856 "GET /contacts/ HTTP/1.1" 200 5193
+WARNING 2024-03-10 16:21:24,545 basehttp 9165 6216953856 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:23:36,899 basehttp 9165 6200127488 "GET /contacts/ HTTP/1.1" 200 5189
+WARNING 2024-03-10 16:23:36,939 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:23:48,338 basehttp 9165 6200127488 "GET /about/ HTTP/1.1" 200 5145
+WARNING 2024-03-10 16:23:48,381 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:23:53,578 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5521
+WARNING 2024-03-10 16:23:53,614 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:24:39,959 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5528
+WARNING 2024-03-10 16:24:39,996 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:39:10,558 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5513
+WARNING 2024-03-10 16:39:10,595 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:39:12,451 basehttp 9165 6200127488 "GET /works/ HTTP/1.1" 200 5513
+WARNING 2024-03-10 16:39:12,489 basehttp 9165 6200127488 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:41:43,438 autoreload 10964 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-10 16:41:49,204 basehttp 10964 6137180160 "GET / HTTP/1.1" 200 3553
+WARNING 2024-03-10 16:41:49,333 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:43:42,692 basehttp 10964 6137180160 "GET / HTTP/1.1" 200 3582
+WARNING 2024-03-10 16:43:42,731 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:43:43,757 basehttp 10964 6137180160 "GET / HTTP/1.1" 200 3582
+WARNING 2024-03-10 16:43:43,796 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:52:50,804 basehttp 10964 6137180160 "GET / HTTP/1.1" 200 7115
+WARNING 2024-03-10 16:52:50,842 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:55:22,960 basehttp 10964 6137180160 "GET / HTTP/1.1" 200 7143
+WARNING 2024-03-10 16:55:23,000 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:55:53,268 basehttp 10964 6137180160 "GET / HTTP/1.1" 200 7143
+WARNING 2024-03-10 16:55:53,306 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:56:02,532 basehttp 10964 6137180160 "GET / HTTP/1.1" 200 7115
+WARNING 2024-03-10 16:56:02,572 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:56:45,486 basehttp 10964 6137180160 "GET / HTTP/1.1" 200 7115
+WARNING 2024-03-10 16:56:45,527 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 16:56:46,632 basehttp 10964 6137180160 "GET / HTTP/1.1" 200 7115
+WARNING 2024-03-10 16:56:46,671 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:02:45,673 basehttp 10964 6137180160 "GET / HTTP/1.1" 200 7108
+WARNING 2024-03-10 17:02:45,710 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:02:45,734 basehttp 10964 6137180160 "GET /static/assets/images/pianino_klavishi_makro_200071_3840x2160.jpg HTTP/1.1" 200 399270
+INFO 2024-03-10 17:02:54,206 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9083
+WARNING 2024-03-10 17:02:54,242 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:02:55,613 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 8751
+WARNING 2024-03-10 17:02:55,652 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:03:13,735 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 8707
+WARNING 2024-03-10 17:03:13,777 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:03:18,481 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6945
+WARNING 2024-03-10 17:03:18,521 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:03:29,047 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9083
+WARNING 2024-03-10 17:03:29,090 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:03:37,886 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 8751
+WARNING 2024-03-10 17:03:37,920 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:03:44,180 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 8707
+WARNING 2024-03-10 17:03:44,223 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:04:29,213 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 8751
+WARNING 2024-03-10 17:04:29,254 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:04:44,642 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6945
+WARNING 2024-03-10 17:04:44,683 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:04:56,096 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7108
+WARNING 2024-03-10 17:04:56,137 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:05:04,508 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6945
+WARNING 2024-03-10 17:05:04,545 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:05:06,592 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9083
+WARNING 2024-03-10 17:05:06,628 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:05:16,494 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 8707
+WARNING 2024-03-10 17:05:16,534 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:05:34,186 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 8714
+WARNING 2024-03-10 17:05:34,226 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:05:38,112 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7115
+WARNING 2024-03-10 17:05:38,150 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:05:39,847 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6952
+WARNING 2024-03-10 17:05:39,888 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:05:41,148 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9090
+WARNING 2024-03-10 17:05:41,188 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:05:46,776 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 8714
+WARNING 2024-03-10 17:05:46,815 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:40:50,217 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 9648
+WARNING 2024-03-10 17:40:50,254 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 17:41:22,531 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 8714
+WARNING 2024-03-10 17:41:22,569 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:03:03,071 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 7711
+WARNING 2024-03-10 18:03:03,108 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:04:42,781 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 8714
+WARNING 2024-03-10 18:04:42,817 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:06:42,746 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 10877
+WARNING 2024-03-10 18:06:42,783 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:16:00,897 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 13747
+WARNING 2024-03-10 18:16:00,931 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:16:32,861 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7030
+WARNING 2024-03-10 18:16:32,900 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:17:30,511 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7107
+WARNING 2024-03-10 18:17:30,554 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:17:35,357 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 8750
+WARNING 2024-03-10 18:17:35,397 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:21:59,525 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 8745
+WARNING 2024-03-10 18:21:59,566 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:22:37,073 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 8660
+WARNING 2024-03-10 18:22:37,116 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:25:10,287 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 8747
+WARNING 2024-03-10 18:25:10,330 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:25:17,875 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7104
+WARNING 2024-03-10 18:25:17,917 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:25:22,623 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6941
+WARNING 2024-03-10 18:25:22,663 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:26:39,667 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9079
+WARNING 2024-03-10 18:26:39,709 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:31:31,838 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9065
+WARNING 2024-03-10 18:31:31,873 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:31:57,798 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 8976
+WARNING 2024-03-10 18:31:57,836 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:32:30,665 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9085
+WARNING 2024-03-10 18:32:30,702 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:32:34,449 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 8753
+WARNING 2024-03-10 18:32:34,488 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:36:18,770 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7075
+WARNING 2024-03-10 18:36:18,809 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:36:22,786 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7075
+WARNING 2024-03-10 18:36:22,825 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:36:31,847 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6912
+WARNING 2024-03-10 18:36:31,883 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:36:33,084 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7075
+WARNING 2024-03-10 18:36:33,124 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:37:46,526 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7095
+WARNING 2024-03-10 18:37:46,565 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:40:13,253 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7076
+WARNING 2024-03-10 18:40:13,291 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:40:22,718 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7076
+WARNING 2024-03-10 18:40:22,759 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:40:23,689 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6913
+WARNING 2024-03-10 18:40:23,729 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:40:24,765 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9051
+WARNING 2024-03-10 18:40:24,798 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:40:25,831 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 8719
+WARNING 2024-03-10 18:40:25,863 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:40:27,259 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7076
+WARNING 2024-03-10 18:40:27,290 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:41:01,484 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7090
+WARNING 2024-03-10 18:41:01,522 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:41:24,609 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7090
+WARNING 2024-03-10 18:41:24,647 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:41:25,789 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6927
+WARNING 2024-03-10 18:41:25,823 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:41:27,467 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7090
+WARNING 2024-03-10 18:41:27,503 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:41:28,267 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6927
+WARNING 2024-03-10 18:41:28,301 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:41:29,474 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9065
+WARNING 2024-03-10 18:41:29,513 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:41:31,038 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7090
+WARNING 2024-03-10 18:41:31,076 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:43:59,809 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7090
+WARNING 2024-03-10 18:43:59,845 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:44:03,208 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6927
+WARNING 2024-03-10 18:44:03,247 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:44:05,681 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9065
+WARNING 2024-03-10 18:44:05,714 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:44:06,685 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 8733
+WARNING 2024-03-10 18:44:06,717 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:44:07,967 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 8689
+WARNING 2024-03-10 18:44:08,007 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:44:09,440 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7090
+WARNING 2024-03-10 18:44:09,478 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+ERROR 2024-03-10 18:44:49,882 log 10964 6137180160 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py", line 9, in index
+    return render(request, "workshop_app/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 514, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 531, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'base.html'> must be the first tag in the template.
+ERROR 2024-03-10 18:44:49,884 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 500 121428
+ERROR 2024-03-10 18:45:10,654 log 10964 6137180160 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py", line 9, in index
+    return render(request, "workshop_app/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 514, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 531, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'base.html'> must be the first tag in the template.
+ERROR 2024-03-10 18:45:10,656 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 500 121229
+INFO 2024-03-10 18:48:42,999 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7090
+WARNING 2024-03-10 18:48:43,036 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+ERROR 2024-03-10 18:48:46,777 log 10964 6137180160 Internal Server Error: /works/
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py", line 25, in works
+    return render(request, "workshop_app/works.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 3: 'title'. Did you forget to register or load this tag?
+ERROR 2024-03-10 18:48:46,779 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 500 153654
+ERROR 2024-03-10 18:49:55,898 log 10964 6137180160 Internal Server Error: /works/
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'blocktitle'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/workshop/workshop_app/views.py", line 25, in works
+    return render(request, "workshop_app/works.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/den/Desktop/piano_workshop/.venv/lib/python3.11/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 3: 'blocktitle'. Did you forget to register or load this tag?
+ERROR 2024-03-10 18:49:55,901 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 500 153701
+INFO 2024-03-10 18:50:05,587 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9065
+WARNING 2024-03-10 18:50:05,624 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:50:10,000 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9065
+WARNING 2024-03-10 18:50:10,033 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-10 18:50:33,044 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9065
+WARNING 2024-03-10 18:50:33,079 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 04:18:18,673 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9065
+WARNING 2024-03-11 04:18:18,709 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 13:15:00,298 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 8976
+WARNING 2024-03-11 13:15:00,334 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 13:15:21,135 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9065
+WARNING 2024-03-11 13:15:21,171 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 13:15:30,315 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7113
+WARNING 2024-03-11 13:15:30,348 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 13:15:32,610 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6916
+WARNING 2024-03-11 13:15:32,648 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 13:15:41,087 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9065
+WARNING 2024-03-11 13:15:41,121 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 13:15:42,458 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 8722
+WARNING 2024-03-11 13:15:42,495 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 13:15:48,204 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 8678
+WARNING 2024-03-11 13:15:48,240 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:23:55,201 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7113
+WARNING 2024-03-11 14:23:55,236 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:23:56,566 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6916
+WARNING 2024-03-11 14:23:56,605 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:23:57,784 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9065
+WARNING 2024-03-11 14:23:57,822 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:23:59,185 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 8722
+WARNING 2024-03-11 14:23:59,222 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:24:00,418 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 8678
+WARNING 2024-03-11 14:24:00,489 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:28:18,908 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7113
+WARNING 2024-03-11 14:28:18,942 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:28:20,537 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6961
+WARNING 2024-03-11 14:28:20,572 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:28:24,761 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9086
+WARNING 2024-03-11 14:28:24,803 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:28:26,562 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 8758
+WARNING 2024-03-11 14:28:26,598 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:28:29,530 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 8707
+WARNING 2024-03-11 14:28:29,571 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:29:35,921 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 8652
+WARNING 2024-03-11 14:29:35,957 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:29:38,975 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6906
+WARNING 2024-03-11 14:29:39,011 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:29:50,020 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6961
+WARNING 2024-03-11 14:29:50,059 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:29:54,012 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 9086
+WARNING 2024-03-11 14:29:54,052 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:29:55,369 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 8707
+WARNING 2024-03-11 14:29:55,402 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:29:56,638 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6961
+WARNING 2024-03-11 14:29:56,674 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:30:08,626 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6906
+WARNING 2024-03-11 14:30:08,666 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:30:48,281 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 3399
+WARNING 2024-03-11 14:30:48,320 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:31:46,245 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6959
+WARNING 2024-03-11 14:31:46,283 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:31:55,314 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6954
+WARNING 2024-03-11 14:31:55,352 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:32:13,826 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6865
+WARNING 2024-03-11 14:32:13,863 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:32:45,465 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 3303
+WARNING 2024-03-11 14:32:45,504 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:33:44,617 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 3279
+WARNING 2024-03-11 14:33:44,655 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:34:08,578 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6865
+WARNING 2024-03-11 14:34:08,610 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:34:23,841 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7017
+WARNING 2024-03-11 14:34:23,879 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:34:27,503 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 6865
+WARNING 2024-03-11 14:34:27,543 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:34:29,033 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7017
+WARNING 2024-03-11 14:34:29,069 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:35:00,548 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7024
+WARNING 2024-03-11 14:35:00,585 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:36:12,522 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 7024
+WARNING 2024-03-11 14:36:12,560 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:36:53,906 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 3462
+WARNING 2024-03-11 14:36:53,943 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:37:08,726 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 3310
+WARNING 2024-03-11 14:37:08,761 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:37:11,374 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 5435
+WARNING 2024-03-11 14:37:11,407 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:37:45,429 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 5107
+WARNING 2024-03-11 14:37:45,465 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 14:38:35,477 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 5196
+WARNING 2024-03-11 14:38:35,516 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 16:23:13,044 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 4550
+WARNING 2024-03-11 16:23:13,083 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-11 16:23:13,100 log 10964 6137180160 Not Found: /assets/brand/bootstrap-logo.svg
+WARNING 2024-03-11 16:23:13,100 basehttp 10964 6137180160 "GET /assets/brand/bootstrap-logo.svg HTTP/1.1" 404 3353
+INFO 2024-03-11 16:24:29,102 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 4548
+WARNING 2024-03-11 16:24:29,139 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-11 16:24:29,157 log 10964 6137180160 Not Found: /assets/brand/bootstrap-logo.svg
+WARNING 2024-03-11 16:24:29,158 basehttp 10964 6137180160 "GET /assets/brand/bootstrap-logo.svg HTTP/1.1" 404 3353
+INFO 2024-03-11 16:25:09,692 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 4548
+WARNING 2024-03-11 16:25:09,730 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-11 16:25:09,748 log 10964 6137180160 Not Found: /assets/brand/bootstrap-logo.svg
+WARNING 2024-03-11 16:25:09,748 basehttp 10964 6137180160 "GET /assets/brand/bootstrap-logo.svg HTTP/1.1" 404 3353
+INFO 2024-03-11 16:25:13,678 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 4396
+WARNING 2024-03-11 16:25:13,717 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-11 16:25:13,735 log 10964 6137180160 Not Found: /assets/brand/bootstrap-logo.svg
+WARNING 2024-03-11 16:25:13,735 basehttp 10964 6137180160 "GET /assets/brand/bootstrap-logo.svg HTTP/1.1" 404 3353
+INFO 2024-03-11 16:25:20,380 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 4548
+WARNING 2024-03-11 16:25:20,421 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-11 16:25:20,439 log 10964 6137180160 Not Found: /assets/brand/bootstrap-logo.svg
+WARNING 2024-03-11 16:25:20,439 basehttp 10964 6137180160 "GET /assets/brand/bootstrap-logo.svg HTTP/1.1" 404 3353
+INFO 2024-03-11 16:25:21,271 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 4396
+WARNING 2024-03-11 16:25:21,305 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-11 16:25:21,325 log 10964 6137180160 Not Found: /assets/brand/bootstrap-logo.svg
+WARNING 2024-03-11 16:25:21,325 basehttp 10964 6137180160 "GET /assets/brand/bootstrap-logo.svg HTTP/1.1" 404 3353
+INFO 2024-03-11 16:25:22,105 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 6521
+WARNING 2024-03-11 16:25:22,138 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-11 16:25:22,173 log 10964 6137180160 Not Found: /assets/brand/bootstrap-logo.svg
+WARNING 2024-03-11 16:25:22,173 basehttp 10964 6137180160 "GET /assets/brand/bootstrap-logo.svg HTTP/1.1" 404 3353
+INFO 2024-03-11 17:11:00,948 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 3551
+WARNING 2024-03-11 17:11:00,977 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 17:11:03,132 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 3399
+WARNING 2024-03-11 17:11:03,166 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 17:11:05,311 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 3551
+WARNING 2024-03-11 17:11:05,344 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 17:11:07,038 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 5524
+WARNING 2024-03-11 17:11:07,076 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 17:11:14,458 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 5196
+WARNING 2024-03-11 17:11:14,493 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 17:11:19,311 basehttp 10964 6137180160 "GET /about/ HTTP/1.1" 200 5145
+WARNING 2024-03-11 17:11:19,349 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 17:11:23,234 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 3551
+WARNING 2024-03-11 17:11:23,271 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-11 17:12:01,151 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 4317
+WARNING 2024-03-11 17:12:01,191 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-12 03:37:04,555 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 3551
+WARNING 2024-03-12 03:37:04,592 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-12 03:37:55,768 basehttp 10964 6137180160 "GET /price/ HTTP/1.1" 200 3399
+WARNING 2024-03-12 03:37:55,810 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-12 03:37:56,897 basehttp 10964 6137180160 "GET /works/ HTTP/1.1" 200 5524
+WARNING 2024-03-12 03:37:56,934 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-12 03:37:57,735 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 200 3551
+WARNING 2024-03-12 03:37:57,774 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-12 03:37:58,817 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 5196
+WARNING 2024-03-12 03:37:58,856 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
