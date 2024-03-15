@@ -1782,3 +1782,14 @@ INFO 2024-03-12 03:37:57,735 basehttp 10964 6137180160 "GET /index/ HTTP/1.1" 20
 WARNING 2024-03-12 03:37:57,774 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
 INFO 2024-03-12 03:37:58,817 basehttp 10964 6137180160 "GET /contacts/ HTTP/1.1" 200 5196
 WARNING 2024-03-12 03:37:58,856 basehttp 10964 6137180160 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+INFO 2024-03-15 07:07:47,349 autoreload 17743 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-15 07:18:10,788 autoreload 17796 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-15 07:43:41,537 autoreload 17988 8117490432 Watching for file changes with StatReloader
+INFO 2024-03-15 07:44:05,574 basehttp 17988 6161526784 "GET / HTTP/1.1" 200 3556
+WARNING 2024-03-15 07:44:05,705 basehttp 17988 6161526784 "GET /static/https%3A/fonts.googleapis.com/css2%3Ffamily%3DCormorant%2BUpright%3Awght%40300%26display%3Dswap HTTP/1.1" 404 2014
+WARNING 2024-03-15 07:44:05,751 log 17988 6161526784 Not Found: /favicon.ico
+WARNING 2024-03-15 07:44:05,751 basehttp 17988 6161526784 "GET /favicon.ico HTTP/1.1" 404 3404
+WARNING 2024-03-15 07:44:05,761 log 17988 6178353152 Not Found: /apple-touch-icon-precomposed.png
+WARNING 2024-03-15 07:44:05,761 basehttp 17988 6178353152 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 3467
+WARNING 2024-03-15 07:44:05,774 log 17988 6178353152 Not Found: /apple-touch-icon.png
+WARNING 2024-03-15 07:44:05,776 basehttp 17988 6178353152 "GET /apple-touch-icon.png HTTP/1.1" 404 3431
