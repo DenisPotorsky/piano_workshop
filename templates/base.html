@@ -1,6 +1,6 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:https="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,6 @@
           background-size: cover;
         }
     </style>
-
     <link rel="stylesheet" href="{% static "assets/recet.css" %}">
     <link rel="stylesheet" href="{% static "assets/styles/styles.css" %}">
     <link rel="preconnect" href="{% static "https://fonts.googleapis.com"%}">
@@ -28,6 +27,7 @@
 <!--        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>-->
         <span class="text-warning ">Музыкальная мастерская "Доминанта"</span>
       </a>
+                <button class="button"><a href="https://dikidi.net/#widget=155824">Записаться</a></button>
 
       <ul class="nav nav-pills">
         <li class="nav-item"><a href="{% url 'index' %}" class="nav-link link-warning" aria-current="page">Главная</a></li>
@@ -68,7 +68,7 @@
 
    <!--        <button-->
 <!--                class="button"><a href="https://dikidi.net/#widget=139202" class="nav-link active" aria-current="page">Записаться</a></button>-->
-<!--        <script type="text/javascript" src="https://dikidi.net/assets/js/widget_record/widget2.min.js"></script>--> 
+<!--        <script type="text/javascript" src="https://dikidi.net/assets/js/widget_record/widget2.min.js"></script>-->
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
       <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
